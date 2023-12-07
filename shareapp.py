@@ -12,3 +12,4 @@ from os import path
 def greet(name):
     return "Hello " + name + "!"
 demo = gr.Interface(greet, "textbox", "text")
+demo.launch()
