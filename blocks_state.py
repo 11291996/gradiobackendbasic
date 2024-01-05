@@ -35,4 +35,5 @@ with gr.Blocks() as demo:
         [input_letter, used_letters_var],
         [used_letters_var, used_letters_box, hangman]
         )
+    
 demo.launch()
