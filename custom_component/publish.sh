@@ -10,5 +10,5 @@ gradio cc dev #it will start a debug server as well
 gradio cc build #this will create tar.gz file and whl file in dist/ folder
 pip install <path to whl file> #this will install the custom component
 #publish the component
-gradion cc publish #this will publish the component to pip 
+gradio cc publish #this will publish the component to pip 
 pip install name_in_pyproject_toml #this will install the component from pip #the name must be free in pip
