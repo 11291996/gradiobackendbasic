@@ -1,4 +1,5 @@
-##essential arguments for a component
+## essential arguments for a component
+
 interactive and static arguments 
 value argument
 Index.svelte in the frontend file
