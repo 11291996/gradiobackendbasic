@@ -5,6 +5,18 @@ from typing import Any, Callable
 from gradio.components.base import FormComponent
 from gradio.events import Events
 
+#all components inherit from FormComponent, Component, and BlockContext classes
+#template importing like in publish.sh will import templates inheriting from the classes above
+
+"""
+FormComponent: Use this when you want your component to be grouped together in the same Form layout with other FormComponents. 
+The Slider, Textbox, and Number components are all FormComponents.
+BlockContext: Use this when you want to place other components “inside” your component. 
+This enabled with MyComponent() as component: syntax.
+Component: Use this for all other cases.
+"""
+
+
 
 class MyComponent(FormComponent):
     """
@@ -15,7 +27,7 @@ class MyComponent(FormComponent):
     """
 
     """
-    FRONTEND_DIR = "frontend"
+    FRONTEND_DIR = "./gradiofrontendbasic/frontend" 
     add this variable to editing project folder 
     """
 

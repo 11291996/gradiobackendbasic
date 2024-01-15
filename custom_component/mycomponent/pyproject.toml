@@ -44,7 +44,7 @@ classifiers = [
 dev = ["build", "twine"]
 
 [tool.hatch.build]
-artifacts = ["/backend/gradio_mycomponent/templates", "*.pyi"] #here
+artifacts = ["/backend/gradio_mycomponent/templates", "*.pyi"] #here -> change it to "/backend/gradio_mycomponent/supertextbox"
 #to use a new folder edit this 
 [tool.hatch.build.targets.wheel]
 packages = ["/backend/gradio_mycomponent"] #also here must be changed to new name
